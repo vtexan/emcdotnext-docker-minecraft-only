@@ -2,7 +2,6 @@ FROM java:8
 
 MAINTAINER EMCDotNextTeam-vTexan
 
-RUN  mkdir /data
 RUN   mkdir /games
 RUN curl "https://s3.amazonaws.com/Minecraft.Download/versions/1.10.2/minecraft_server.1.10.2.jar" -o /games/minecraft_server.jar
 
